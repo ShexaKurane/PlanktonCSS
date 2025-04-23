@@ -1,0 +1,843 @@
+/* TYPOGRAPHY STYLES */
+
+/* Esta sección define los estilos de tipografía para el sitio web. */
+
+/* Títulos */
+/* h1, .h1-MD, .h1-SM: Establecen el estilo para los títulos h1 con un tamaño de fuente de 36px y fuente importante. */
+/* h2, .h2-MD, .h2-SM: Establecen el estilo para los títulos h2 con un tamaño de fuente de 28px y peso de fuente 500. */
+/* h3, .h3-MD, .h3-SM: Establecen el estilo para los títulos h3 con un tamaño de fuente de 22px y peso de fuente 700. */
+
+/* Párrafos */
+/* p, .p-MD, .p-SM: Establecen el estilo para los párrafos con un tamaño de fuente de 18px. */
+
+/* Alineación de Texto */
+/* .t-left, .t-left-MD, .t-left-SM: Alinea el texto a la izquierda. */
+/* .t-right, .t-right-MD, .t-right-SM: Alinea el texto a la derecha. */
+/* .t-center, .t-center-MD, .t-center-SM: Alinea el texto al centro. */
+/* .t-justify, .t-justify-MD, .t-justify-SM: Justifica el texto. */
+
+/* Transformaciones de Texto */
+/* .t-uppercase, .t-uppercase-MD, .t-uppercase-SM: Convierte el texto en mayúsculas. */
+/* .t-lowercase, .t-lowercase-MD, .t-lowercase-SM: Convierte el texto en minúsculas. */
+/* .t-capitalize, .t-capitalize-MD, .t-capitalize-SM: Capitaliza la primera letra de cada palabra. */
+
+/* Decoraciones de Texto */
+/* .t-subrayado, .t-subrayado-MD, .t-subrayado-SM: Subraya el texto. */
+/* .t-tachado, .t-tachado-MD, .t-tachado-SM: Aplica una línea a través del texto. */
+
+/* Colores de Texto */
+/*Se establecen los colores de acuerdo con lo establecido en el archivo fontsAndColors.css*/
+
+/* .t-primary: Establece el color del texto como primario. */
+/* .t-primary2: Establece el color del texto como secundario primario. */
+/* .t-secondary: Establece el color del texto como secundario. */
+/* .t-contrast: Establece el color del texto como contraste. */
+/* .t-contrast2: Establece el color del texto como secundario de contraste. */
+/* .t-light: Establece el color del texto como claro. */
+/* .t-white: Establece el color del texto como blanco. */
+/* .t-black: Establece el color del texto como negro. */
+/* .t-success: Establece el color del texto como éxito. */
+/* .t-success2: Establece el color del texto como secundario de éxito. */
+/* .t-warning: Establece el color del texto como advertencia. */
+/* .t-warning2: Establece el color del texto como secundario de advertencia. */
+/* .t-alert: Establece el color del texto como alerta. */
+/* .t-alert2: Establece el color del texto como secundario de alerta. */
+/* .t-gray: Establece el color del texto como gris claro. */
+
+/* Tamaños de Texto */
+/* .t-tamano10, .t-tamano10-MD, .t-tamano10-SM: Establece el tamaño de fuente en 1rem. */
+/* .t-tamano15, .t-tamano15-MD, .t-tamano15-SM: Establece el tamaño de fuente en 1.5rem. */
+/* .t-tamano20, .t-tamano20-MD, .t-tamano20-SM: Establece el tamaño de fuente en 2rem. */
+/* .t-tamano25, .t-tamano25-MD, .t-tamano25-SM: Establece el tamaño de fuente en 2.5rem. */
+/* .t-tamano30, .t-tamano30-MD, .t-tamano30-SM: Establece el tamaño de fuente en 3rem. */
+/* .t-tamano35, .t-tamano35-MD, .t-tamano35-SM: Establece el tamaño de fuente en 3.5rem. */
+/* .t-tamano40, .t-tamano40-MD, .t-tamano40-SM: Establece el tamaño de fuente en 4rem. */
+/* .t-tamano45, .t-tamano45-MD, .t-tamano45-SM: Establece el tamaño de fuente en 4.5rem. */
+/* .t-tamano50, .t-tamano50-MD, .t-tamano50-SM: Establece el tamaño de fuente en 5rem. */
+/* .t-tamano55, .t-tamano55-MD, .t-tamano55-SM: Establece el tamaño de fuente en 5.5rem. */
+/* .t-tamano60, .t-tamano60-MD, .t-tamano60-SM: Establece el tamaño de fuente en 6rem. */
+/* .t-tamano65, .t-tamano65-MD, .t-tamano65-SM: Establece el tamaño de fuente en 6.5rem. */
+/* .t-tamano70, .t-tamano70-MD, .t-tamano70-SM: Establece el tamaño de fuente en 7rem. */
+/* .t-tamano75, .t-tamano75-MD, .t-tamano75-SM: Establece el tamaño de fuente en 7.5rem. */
+/* .t-tamano80, .t-tamano80-MD, .t-tamano80-SM: Establece el tamaño de fuente en 8rem. */
+/* .t-tamano85, .t-tamano85-MD, .t-tamano85-SM: Establece el tamaño de fuente en 8.5rem. */
+/* .t-tamano90, .t-tamano90-MD, .t-tamano90-SM: Establece el tamaño de fuente en 9rem. */
+/* .t-tamano95, .t-tamano95-MD, .t-tamano95-SM: Establece el tamaño de fuente en 9.5rem. */
+/* .t-tamano100, .t-tamano100-MD, .t-tamano100-SM: Establece el tamaño de fuente en 10rem. */
+/* .t-tamano105, .t-tamano105-MD, .t-tamano105-SM: Establece el tamaño de fuente en 10.5rem. */
+
+@import url(./fontsAndColors.css);
+
+
+h1 {
+  font-family: var(--title) !important;
+  font-size: 30px !important;
+}
+
+h2 {
+  font-family: var(--title);
+  font-size: 26px;
+  font-weight: 500;
+}
+
+h3 {
+  font-family: var(--title);
+  font-size: 22px;
+  font-weight: 700;
+}
+
+section p {
+  font-family: var(--body);
+  font-size: 18px;
+}
+
+#contenido2 li {
+  font-family: var(--body);
+  font-size: 18px;
+}
+
+.t-left {
+  text-align: left;
+}
+
+.t-right {
+  text-align: right;
+}
+
+.t-center {
+  text-align: center;
+}
+
+.t-justify {
+  text-align: justify;
+}
+
+.t-uppercase {
+  text-transform: uppercase;
+}
+
+.t-lowercase {
+  text-transform: lowercase;
+}
+
+.t-capitalize {
+  text-transform: capitalize;
+}
+
+.t-subrayado {
+  text-decoration: underline;
+}
+
+.t-tachado {
+  text-decoration: line-through;
+}
+
+
+.t-primary {
+  color: var(--primary);
+}
+
+.t-primary2 {
+  color: var(--primary2);
+}
+
+.t-secondary {
+  color: var(--secondary);
+}
+
+.t-contrast {
+  color: var(--contrast);
+}
+
+.t-contrast2 {
+  color: var(--contrast2);
+}
+
+.t-light {
+  color: var(--light);
+}
+
+.t-white {
+  color: var(--white);
+}
+
+.t-black {
+  color: var(--carbon);
+}
+
+.t-success {
+  color: var(--success);
+}
+
+.t-success2 {
+  color: var(--success2);
+}
+
+.t-warning {
+  color: var(--warning);
+}
+
+.t-warning2 {
+  color: var(--warning2);
+}
+
+.t-alert {
+  color: var(--alert);
+}
+
+.t-alert2 {
+  color: var(--alert2);
+}
+
+.t-gray {
+  color: var(--gray);
+}
+
+.t-tamano10 {
+  font-size: 1rem;
+}
+
+.t-tamano15 {
+  font-size: 1.5rem;
+}
+
+.t-tamano20 {
+  font-size: 2rem;
+}
+
+.t-tamano25 {
+  font-size: 2.5rem;
+}
+
+.t-tamano30 {
+  font-size: 3rem;
+}
+
+.t-tamano35 {
+  font-size: 3.5rem;
+}
+
+.t-tamano40 {
+  font-size: 4rem;
+}
+
+.t-tamano45 {
+  font-size: 4.5rem;
+}
+
+.t-tamano50 {
+  font-size: 5rem;
+}
+
+.t-tamano55 {
+  font-size: 5.5rem;
+}
+
+.t-tamano60 {
+  font-size: 6rem;
+}
+
+.t-tamano65 {
+  font-size: 6.5rem;
+}
+
+.t-tamano70 {
+  font-size: 7rem;
+}
+
+.t-tamano75 {
+  font-size: 7.5rem;
+}
+
+.t-tamano80 {
+  font-size: 8rem;
+}
+
+.t-tamano85 {
+  font-size: 8.5rem;
+}
+
+.t-tamano90 {
+  font-size: 9rem;
+}
+
+.t-tamano95 {
+  font-size: 9.5rem;
+}
+
+.t-tamano100 {
+  font-size: 10rem;
+}
+
+.t-tamano105 {
+  font-size: 10.5rem;
+}
+
+.t-shadow-dark {
+  text-shadow: 3px 2px 5px #00000070;
+}
+
+.t-shadow-light {
+  text-shadow: 0px 0px 10px #ffffff;
+}
+
+.font-urbanist {
+  font-family: 'Urbanist';
+}
+
+.font-poppins {
+  font-family: 'Poppins';
+}
+
+.font-lato {
+  font-family: 'Lato';
+
+}
+
+.font-w100 {
+  font-weight: 100;
+}
+
+.font-w200 {
+  font-weight: 200;
+}
+
+.font-w300 {
+  font-weight: 300;
+}
+
+.font-w400 {
+  font-weight: 400;
+}
+
+.font-w500 {
+  font-weight: 500;
+}
+
+.font-w600 {
+  font-weight: 600;
+}
+
+.font-w700 {
+  font-weight: 700;
+}
+
+.font-w800 {
+  font-weight: 800;
+}
+
+.font-w900 {
+  font-weight: 900;
+}
+
+@media (max-width: 900px) {
+  .h1-MD {
+    font-family: var(--title) !important;
+    font-size: 28px !important;
+  }
+
+  .h2-MD {
+    font-family: var(--title);
+    font-size: 22px;
+    font-weight: 500;
+  }
+
+  .h3-MD {
+    font-family: var(--title);
+    font-size: 18px;
+    font-weight: 700;
+  }
+
+  .p-MD {
+    font-family: var(--body);
+    font-size: 16px;
+  }
+
+  .t-left-MD {
+    text-align: left;
+  }
+
+  .t-right-MD {
+    text-align: right;
+  }
+
+  .t-center-MD {
+    text-align: center;
+  }
+
+  .t-justify-MD {
+    text-align: justify;
+  }
+
+  .t-uppercase-MD {
+    text-transform: uppercase;
+  }
+
+  .t-lowercase-MD {
+    text-transform: lowercase;
+  }
+
+  .t-capitalize-MD {
+    text-transform: capitalize;
+  }
+
+  .t-subrayado-MD {
+    text-decoration: underline;
+  }
+
+  .t-tachado-MD {
+    text-decoration: line-through;
+  }
+
+  .t-primary-MD {
+    color: var(--primary);
+  }
+
+  .t-primary2-MD {
+    color: var(--primary2);
+  }
+
+  .t-secondary-MD {
+    color: var(--secondary);
+  }
+
+  .t-contrast-MD {
+    color: var(--contrast);
+  }
+
+  .t-contrast2-MD {
+    color: var(--contrast2);
+  }
+
+  .t-light-MD {
+    color: var(--light);
+  }
+
+  .t-white-MD {
+    color: var(--white);
+  }
+
+  .t-black-MD {
+    color: var(--carbon);
+  }
+
+  .t-success-MD {
+    color: var(--success);
+  }
+
+  .t-success2-MD {
+    color: var(--success2);
+  }
+
+  .t-warning-MD {
+    color: var(--warning);
+  }
+
+  .t-warning2-MD {
+    color: var(--warning2);
+  }
+
+  .t-alert-MD {
+    color: var(--alert);
+  }
+
+  .t-alert2-MD {
+    color: var(--alert2);
+  }
+  
+  .t-gray-MD {
+    color: var(--gray);
+  }
+
+  .t-tamano10-MD {
+    font-size: 1rem;
+  }
+
+  .t-tamano15-MD {
+    font-size: 1.5rem;
+  }
+
+  .t-tamano20-MD {
+    font-size: 2rem;
+  }
+
+  .t-tamano25-MD {
+    font-size: 2.5rem;
+  }
+
+  .t-tamano30-MD {
+    font-size: 3rem;
+  }
+
+  .t-tamano35-MD {
+    font-size: 3.5rem;
+  }
+
+  .t-tamano40-MD {
+    font-size: 4rem;
+  }
+
+  .t-tamano45-MD {
+    font-size: 4.5rem;
+  }
+
+  .t-tamano50-MD {
+    font-size: 5rem;
+  }
+
+  .t-tamano55-MD {
+    font-size: 5.5rem;
+  }
+
+  .t-tamano60-MD {
+    font-size: 6rem;
+  }
+
+  .t-tamano65-MD {
+    font-size: 6.5rem;
+  }
+
+  .t-tamano70-MD {
+    font-size: 7rem;
+  }
+
+  .t-tamano75-MD {
+    font-size: 7.5rem;
+  }
+
+  .t-tamano80-MD {
+    font-size: 8rem;
+  }
+
+  .t-tamano85-MD {
+    font-size: 8.5rem;
+  }
+
+  .t-tamano90-MD {
+    font-size: 9rem;
+  }
+
+  .t-tamano95-MD {
+    font-size: 9.5rem;
+  }
+
+  .t-tamano100-MD {
+    font-size: 10rem;
+  }
+
+  .t-tamano105-MD {
+    font-size: 10.5rem;
+  }
+
+  .t-shadow-dark-MD {
+    text-shadow: 0px 0px 10px black;
+  }
+
+  .t-shadow-light-MD {
+    text-shadow: 0px 0px 10px #ffffff;
+  }
+
+  .font-urbanist-MD {
+    font-family: 'Urbanist';
+  }
+
+  .font-poppins-MD {
+    font-family: 'Poppins';
+  }
+
+  .font-lato-MD {
+    font-family: 'Lato';
+  }
+
+  .font-w100-MD {
+    font-weight: 100;
+  }
+
+  .font-w200-MD {
+    font-weight: 200;
+  }
+
+  .font-w300-MD {
+    font-weight: 300;
+  }
+
+  .font-w400-MD {
+    font-weight: 400;
+  }
+
+  .font-w500-MD {
+    font-weight: 500;
+  }
+
+  .font-w600-MD {
+    font-weight: 600;
+  }
+
+  .font-w700-MD {
+    font-weight: 700;
+  }
+
+  .font-w800-MD {
+    font-weight: 800;
+  }
+
+  .font-w900-MD {
+    font-weight: 900;
+  }
+}
+
+@media (max-width: 500px) {
+  .h1-SM {
+    font-family: var(--title) !important;
+    font-size: 24px !important;
+  }
+
+  .h2-SM {
+    font-family: var(--title);
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .h3-SM {
+    font-family: var(--title);
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .p-SM {
+    font-family: var(--body);
+    font-size: 14px;
+  }
+
+  .t-left-SM {
+    text-align: left;
+  }
+
+  .t-right-SM {
+    text-align: right;
+  }
+
+  .t-center-SM {
+    text-align: center;
+  }
+
+  .t-justify-SM {
+    text-align: justify;
+  }
+
+  .t-uppercase-SM {
+    text-transform: uppercase;
+  }
+
+  .t-lowercase-SM {
+    text-transform: lowercase;
+  }
+
+  .t-capitalize-SM {
+    text-transform: capitalize;
+  }
+
+  .t-subrayado-SM {
+    text-decoration: underline;
+  }
+
+  .t-tachado-SM {
+    text-decoration: line-through;
+  }
+
+  .t-primary-SM {
+    color: var(--primary);
+  }
+
+  .t-primary2-SM {
+    color: var(--primary2);
+  }
+
+  .t-secondary-SM {
+    color: var(--secondary);
+  }
+
+  .t-contrast-SM {
+    color: var(--contrast);
+  }
+
+  .t-contrast2-SM {
+    color: var(--contrast2);
+  }
+
+  .t-light-SM {
+    color: var(--light);
+  }
+
+  .t-white-SM {
+    color: var(--white);
+  }
+
+  .t-black-SM {
+    color: var(--carbon);
+  }
+
+  .t-success-SM {
+    color: var(--success);
+  }
+
+  .t-success2-SM {
+    color: var(--success2);
+  }
+
+  .t-warning-SM {
+    color: var(--warning);
+  }
+
+  .t-warning2-SM {
+    color: var(--warning2);
+  }
+
+  .t-alert-SM {
+    color: var(--alert);
+  }
+
+  .t-alert2-SM {
+    color: var(--alert2);
+  }
+  
+  .t-gray-SM {
+    color: var(--gray);
+  }
+
+  .t-tamano10-SM {
+    font-size: 0.875rem;
+  }
+
+  .t-tamano15-SM {
+    font-size: 1.25rem;
+  }
+
+  .t-tamano20-SM {
+    font-size: 1.5rem;
+  }
+
+  .t-tamano25-SM {
+    font-size: 1.75rem;
+  }
+
+  .t-tamano30-SM {
+    font-size: 2rem;
+  }
+
+  .t-tamano35-SM {
+    font-size: 2.25rem;
+  }
+
+  .t-tamano40-SM {
+    font-size: 2.5rem;
+  }
+
+  .t-tamano45-SM {
+    font-size: 2.75rem;
+  }
+
+  .t-tamano50-SM {
+    font-size: 3rem;
+  }
+
+  .t-tamano55-SM {
+    font-size: 3.25rem;
+  }
+
+  .t-tamano60-SM {
+    font-size: 3.5rem;
+  }
+
+  .t-tamano65-SM {
+    font-size: 3.75rem;
+  }
+
+  .t-tamano70-SM {
+    font-size: 4rem;
+  }
+
+  .t-tamano75-SM {
+    font-size: 4.25rem;
+  }
+
+  .t-tamano80-SM {
+    font-size: 4.5rem;
+  }
+
+  .t-tamano85-SM {
+    font-size: 4.75rem;
+  }
+
+  .t-tamano90-SM {
+    font-size: 5rem;
+  }
+
+  .t-tamano95-SM {
+    font-size: 5.25rem;
+  }
+
+  .t-tamano100-SM {
+    font-size: 5.5rem;
+  }
+
+  .t-tamano105-SM {
+    font-size: 5.75rem;
+  }
+
+  .t-shadow-dark-SM {
+    text-shadow: 0px 0px 10px black;
+  }
+
+  .t-shadow-light-SM {
+    text-shadow: 0px 0px 10px #ffffff;
+  }
+
+  .font-urbanist-SM {
+    font-family: 'Urbanist';
+  }
+
+  .font-poppins-SM {
+    font-family: 'Poppins';
+  }
+
+  .font-lato-SM {
+    font-family: 'Lato';
+  }
+
+  .font-w100-SM {
+    font-weight: 100;
+  }
+
+  .font-w200-SM {
+    font-weight: 200;
+  }
+
+  .font-w300-SM {
+    font-weight: 300;
+  }
+
+  .font-w400-SM {
+    font-weight: 400;
+  }
+
+  .font-w500-SM {
+    font-weight: 500;
+  }
+
+  .font-w600-SM {
+    font-weight: 600;
+  }
+
+  .font-w700-SM {
+    font-weight: 700;
+  }
+
+  .font-w800-SM {
+    font-weight: 800;
+  }
+
+  .font-w900-SM {
+    font-weight: 900;
+  }
+}

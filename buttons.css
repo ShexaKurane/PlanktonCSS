@@ -1,0 +1,92 @@
+ @import url(./fontsAndColors.css);
+
+ a {
+   --color1: var(--primary);
+   --color2: var(--white);
+   --color3: var(--primary2);
+ }
+
+ .plk-btn-primary {
+   --color1: var(--primary);
+   --color2: var(--white);
+   --color3: var(--primary2);
+ }
+
+ .plk-btn-contrast {
+   --color1: var(--contrast);
+   --color2: var(--white);
+   --color3: var(--alert);
+ }
+
+ .plk-btn-blanco {
+   --color3: var(--light);
+   --color2: var(--primary);
+   --color1: var(--white);
+ }
+
+ .plk-btn-exito {
+   --color1: var(--success);
+   --color2: #2e2e2e;
+   --color3: var(--success2);
+ }
+
+ .plk-btn-alerta {
+   --color1: var(--warning);
+   --color2: #2e2e2e;
+   --color3: var(--warning2);
+ }
+
+ .plk-btn-error {
+   --color1: var(--alert);
+   --color2: var(--white);
+   --color3: var(--alert2);
+ }
+
+ .plk-btn-heron {
+  --color1: var(--heron-primary);
+  --color2: var(--white);
+  --color3: var(--heron-secondary);
+}
+
+ .contained-button {
+   background-color: var(--color1) !important;
+   color: var(--color2) !important;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.3s;
+   width: fit-content;
+
+   &:hover {
+     color: var(--color2);
+     background-color: var(--color3) !important;
+   }
+ }
+
+ .outlined-button {
+   background-color: transparent;
+   color: var(--color1);
+   border: 2px solid var(--color1);
+   border-radius: 5px;
+   cursor: pointer;
+   transition: background-color 0.3s, color 0.3s;
+   width: fit-content;
+
+   &:hover {
+     background-color: #ffffff2d;
+     color: var(--color1);
+   }
+ }
+
+ .text-button {
+   background-color: transparent;
+   color: var(--color1);
+   border: none;
+   cursor: pointer;
+   transition: color 0.3s;
+   width: fit-content;
+
+   &:hover {
+     color: var(--color3);
+   }
+ }

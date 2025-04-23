@@ -1,0 +1,102 @@
+/*********************************FUENTE FUTURA****************************/
+
+@font-face {
+  font-family: "Futura";
+  src: "resources/fonts/futura-regular.ttf";
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: "resources/fonts/futura-bold.ttf";
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: "resources/fonts/futura-bolder.ttf";
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: "resources/fonts/futura-light.ttf";
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: "resources/fonts/futura-lighter.ttf";
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: "resources/fonts/futura-regular-italic.ttf";
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: "resources/fonts/futura-bold-italic.ttf";
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: "resources/fonts/futura-light-italic.ttf";
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Futura";
+  src: "resources/fonts/futura-bold-italic.ttf";
+  font-weight: 100;
+  font-style: italic;
+}
+
+
+/*********************************FUENTE POPPINS****************************/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,200;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+  --primary: #e1772d;
+  --primary2: #e2935a;
+  --secondary: #edbe9d;
+  --contrast: #e80c38;
+  --contrast2: #3fc1bd;
+  --info: #3fc1bd;
+  --light: #f9ebe0;
+  --white: #ffffff;
+  --success: #7fff7f;
+  --success2: #98f098;
+  --warning: #ffff99;
+  --warning2: #fcfcb6;
+  --alert: #ff657c;
+  --alert2: rgb(253, 143, 160);
+  --carbon: #333333;
+  --gray: #cccccc;
+  
+  --heron-primary: #B91116;
+  --heron-secondary: #E24622;
+  --heron-dark: #511013;
+  --heron-dark-2: #841816;
+  --heron-light: #F8B688;
+  --heron-active: #E8641C;
+  --heron-contrast: #F39200;
+  --heron-dark-grey: #575756;
+  --heron-grey: #9D9D9C;
+
+  --title: 'Montserrat', sans-serif;
+  --subtitle: 'Urbanist', sans-serif;
+  --body: 'Poppins', sans-serif;
+  --menu: 'Montserrat', sans-serif;
+}

@@ -1,0 +1,51 @@
+.boxshadow-5{
+    box-shadow: 5px 5px;
+}
+
+.boxshadow-10{
+    box-shadow: 10px 10px;
+}
+
+.boxshadow-20{
+    box-shadow: 20px 20px;
+}
+
+.boxshadow-30{
+    box-shadow: 30px 30px;
+}
+
+.boxshadow-40{
+    box-shadow: 40px 40px;
+}
+
+.boxshadow-50{
+    box-shadow: 50px 50px;
+}
+
+.border-solid{
+    border-style: solid;
+}
+
+.border-radius-20{
+    border-radius: 20px;
+}
+
+.bordercolor-primary{
+    border-color: var(--primary);
+}
+
+.plk-bshadow-bot{
+    box-shadow: 0px 5px 5px 0px #0000004f;
+}
+
+.plk-bshadow-botright{
+    box-shadow: 5px 5px 5px 0px #0000004f;
+}
+
+.plk-bshadow-centerright{
+    box-shadow: 3px 3px 5px 4px #0000004f;
+}
+
+.plk-bshadow-top{
+    box-shadow: 5px 5px 0px 0px #0000004f;
+}

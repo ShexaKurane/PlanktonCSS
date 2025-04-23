@@ -1,0 +1,28 @@
+.plk-link-heron:visited{
+    color: var(--heron-contrast )!important;
+}
+
+.plk-link:visited{
+    color: var(--primary);
+}
+
+.plk-link{
+    text-decoration: none ;
+    color: var(--primary);
+    transition: 0.4s;
+}
+
+.plk-link:hover, .plk-link:active{
+    color: var(--contrast);
+    text-decoration: underline;
+}
+
+.plk-link-heron{
+    text-decoration: none !important;
+    color: var(--heron-primary) !important;
+    transition: 0.4s;
+}
+
+.plk-link-heron:hover, .plk-link-heron:active {
+    color: var(--heron-active) !important;
+}

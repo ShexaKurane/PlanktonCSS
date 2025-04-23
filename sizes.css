@@ -1,0 +1,374 @@
+@media(min-width:901px) {
+    .w100{
+        width: 100px;
+    }
+
+    .w200{
+        width: 200px;
+    }
+
+    .w300{
+        width: 300px;
+    }
+
+    .w400{
+        width: 400px;
+    }
+
+    .w500{
+        width: 500px;
+    }
+
+    .w600{
+        width: 600px;
+    }
+
+    .w700{
+        width: 700px;
+    }
+
+    .w800{
+        width: 800px;
+    }
+
+    .w900{
+        width: 900px;
+    }
+}
+
+@media(max-width:900px) {
+    .w100-MD{
+        width: 100px;
+    }
+
+    .w200-MD{
+        width: 200px;
+    }
+
+    .w300-MD{
+        width: 300px;
+    }
+
+    .w400-MD{
+        width: 400px;
+    }
+
+    .w500-MD{
+        width: 500px;
+    }
+
+    .w600-MD{
+        width: 600px;
+    }
+
+    .w700-MD{
+        width: 700px;
+    }
+
+    .w800-MD{
+        width: 800px;
+    }
+
+    .w900-MD{
+        width: 900px;
+    }
+}
+
+@media(max-width:500px) {
+    .w100-SM{
+        width: 100px;
+    }
+
+    .w200-SM{
+        width: 200px;
+    }
+
+    .w300-SM{
+        width: 300px;
+    }
+
+    .w400-SM{
+        width: 400px;
+    }
+
+    .w500-SM{
+        width: 500px;
+    }
+
+    .w600-SM{
+        width: 600px;
+    }
+
+    .w700-SM{
+        width: 700px;
+    }
+
+    .w800-SM{
+        width: 800px;
+    }
+
+    .w900-SM{
+        width: 900px;
+    }
+}
+
+/* Heights */
+@media(min-width:901px) {
+    .h100{
+        height: 100px;
+    }
+
+    .h200{
+        height: 200px;
+    }
+
+    .h300{
+        height: 300px;
+    }
+
+    .h400{
+        height: 400px;
+    }
+
+    .h500{
+        height: 500px;
+    }
+
+    .h600{
+        height: 600px;
+    }
+
+    .h700{
+        height: 700px;
+    }
+
+    .h800{
+        height: 800px;
+    }
+
+    .h900{
+        height: 900px;
+    }
+
+    .hauto{
+        height: auto;
+    }
+}
+
+@media(max-width:900px) {
+    .h100-MD{
+        height: 100px;
+    }
+
+    .h200-MD{
+        height: 200px;
+    }
+
+    .h300-MD{
+        height: 300px;
+    }
+
+    .h400-MD{
+        height: 400px;
+    }
+
+    .h500-MD{
+        height: 500px;
+    }
+
+    .h600-MD{
+        height: 600px;
+    }
+
+    .h700-MD{
+        height: 700px;
+    }
+
+    .h800-MD{
+        height: 800px;
+    }
+
+    .h900-MD{
+        height: 900px;
+    }
+
+    .hauto-MD{
+        height: auto;
+    }
+}
+
+@media(max-width:500px) {
+    .h100-SM{
+        height: 100px;
+    }
+
+    .h200-SM{
+        height: 200px;
+    }
+
+    .h300-SM{
+        height: 300px;
+    }
+
+    .h400-SM{
+        height: 400px;
+    }
+
+    .h500-SM{
+        height: 500px;
+    }
+
+    .h600-SM{
+        height: 600px;
+    }
+
+    .h700-SM{
+        height: 700px;
+    }
+
+    .h800-SM{
+        height: 800px;
+    }
+
+    .h900-SM{
+        height: 900px;
+    }
+
+    .hauto-SM{
+        height: auto;
+    }
+}
+
+/* 
+Serie de clases con diferentes relaciones de aspecto.
+Estas clases se pueden aplicar a elementos HTML para controlar su relación de aspecto. 
+
+ar- es el prefijo para estas clases
+ar-cuadro: forma un cuadrado 1:1
+ar-haureo: forma un contenedor de tamaño aureo orintado horizontalmente 5:3
+ar-vaureo: forma un contenedor de tamaño aureo orintado verticalmente 3:5
+
+el resto es una combinación del prefijo ar- junto con los valores de la realción de aspecto entre 1 y 4
+ejemplos:
+    ar-13 aspect ratio de 1:3
+    ar-32 aspect ratio de 3:2
+*/
+.ar-cuadro{
+    aspect-ratio: 1/1;
+}
+
+.ar-haureo{
+    aspect-ratio: 5/3;
+}
+
+.ar-vaureo{
+    aspect-ratio: 3/5;
+}
+
+.ar-21{
+    aspect-ratio: 2/1;
+}
+
+.ar-31{
+    aspect-ratio: 3/1;
+}
+
+.ar-32{
+    aspect-ratio: 3/2;
+}
+
+.ar-12{
+    aspect-ratio: 1/2;
+}
+
+.ar-13{
+    aspect-ratio: 1/3;
+}
+
+.ar-23{
+    aspect-ratio: 2/3;
+}
+
+.ar-41{
+    aspect-ratio: 4/1;
+}
+
+.ar-43{
+    aspect-ratio: 4/3;
+}
+
+@media(max-width:900px) {
+    .ar-cuadro-MD{
+        aspect-ratio: 1/1;
+    }
+    
+    .ar-haureo-MD{
+        aspect-ratio: 5/3;
+    }
+    
+    .ar-vaureo-MD{
+        aspect-ratio: 3/5;
+    }
+    
+    .ar-21-MD{
+        aspect-ratio: 2/1;
+    }
+    
+    .ar-31-MD{
+        aspect-ratio: 3/1;
+    }
+    
+    .ar-32-MD{
+        aspect-ratio: 3/2;
+    }
+    
+    .ar-12-MD{
+        aspect-ratio: 1/2;
+    }
+    
+    .ar-13-MD{
+        aspect-ratio: 1/3;
+    }
+    
+    .ar-23-MD{
+        aspect-ratio: 2/3;
+    }
+}
+
+@media(max-width:500px) {
+    .ar-cuadro-SM{
+        aspect-ratio: 1/1;
+    }
+    
+    .ar-haureo-SM{
+        aspect-ratio: 5/3;
+    }
+    
+    .ar-vaureo-SM{
+        aspect-ratio: 3/5;
+    }
+    
+    .ar-21-SM{
+        aspect-ratio: 2/1;
+    }
+    
+    .ar-31-SM{
+        aspect-ratio: 3/1;
+    }
+    
+    .ar-32-SM{
+        aspect-ratio: 3/2;
+    }
+    
+    .ar-12-SM{
+        aspect-ratio: 1/2;
+    }
+    
+    .ar-13-SM{
+        aspect-ratio: 1/3;
+    }
+    
+    .ar-23-SM{
+        aspect-ratio: 2/3;
+    }
+}

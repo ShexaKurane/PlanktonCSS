@@ -1,0 +1,17 @@
+  @media (max-width: 900px) {
+    .display-BG {
+      display: none !important;
+    }
+  }
+
+  @media (min-width: 900px) {
+    .display-MD {
+      display: none !important;
+    }
+  }
+
+  @media (min-width: 500px) {
+    .display-SM {
+      display: none !important;
+    }
+  }

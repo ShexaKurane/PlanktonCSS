@@ -1,0 +1,663 @@
+/* FLEXBOX CLASSES */
+/* Las clases flex definen estilos para el modelo de caja flexible de CSS. Puedes usar estas clases para controlar la disposición y alineación de elementos dentro de un contenedor flexible.
+
+Clases de contenedor:
+- .flex: Convierte el contenedor en un contenedor flexible.
+- .flex-row: Establece la dirección de los elementos como fila.
+- .flex-column: Establece la dirección de los elementos como columna.
+- .flex-wrap: Permite que los elementos se envuelvan a la siguiente línea.
+- .flex-no-wrap: Evita que los elementos se envuelvan a la siguiente línea.
+
+Clases de alineación horizontal:
+- .justify-start: Alinea los elementos al inicio del contenedor.
+- .justify-center: Alinea los elementos en el centro del contenedor.
+- .justify-end: Alinea los elementos al final del contenedor.
+- .justify-between: Distribuye los elementos uniformemente con espacio entre ellos.
+- .justify-around: Distribuye los elementos uniformemente con espacio alrededor de ellos.
+- .justify-evenly: Distribuye los elementos uniformemente con espacio entre ellos, incluyendo los bordes.
+
+Clases de alineación vertical:
+- .align-start: Alinea los elementos en la parte superior del contenedor.
+- .align-center: Alinea los elementos en el centro vertical del contenedor.
+- .align-end: Alinea los elementos en la parte inferior del contenedor.
+- .align-baseline: Alinea los elementos por su línea base.
+- .align-stretch: Estira los elementos para que ocupen toda la altura del contenedor.
+
+Clases de espaciado y separación:
+- .gap-X: Establece un espacio horizontal y vertical entre elementos, donde X es el valor en píxeles (ejemplo: .gap-20 para 20px de espacio).
+- .gap-row-X: Establece un espacio vertical entre filas de elementos, donde X es el valor en píxeles.
+- .gap-column-X: Establece un espacio horizontal entre columnas de elementos, donde X es el valor en píxeles.
+
+Estas clases se pueden combinar según sea necesario para crear diseños flexibles y personalizados.
+
+Break-points (puntos de quiebre):
+- Las clases sin sufijo se aplican a partir de 901px.
+- Clases con sufijo -MD se aplican a pantallas de hasta 900px.
+- Clases con sufijo -SM se aplican a pantallas de hasta 500px.
+Por ejemplo: .flex-row-MD aplica flex-direction: row en pantallas de hasta 900px.
+
+Ejemplo de uso:
+<div class="flex flex-row justify-center align-center flex-wrap gap-20 gap-row-10 gap-column-30">
+  ...
+</div>
+*/
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.align-baseline {
+  align-items: baseline;
+}
+
+.align-stretch {
+  align-items: stretch;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-column-reverse {
+  flex-direction: column-reverse
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-no-wrap {
+  flex-wrap: nowrap;
+}
+
+.gap-10 {
+  gap: 10px;
+}
+
+.gap-20 {
+  gap: 20px;
+}
+
+.gap-30 {
+  gap: 30px;
+}
+
+.gap-40 {
+  gap: 40px;
+}
+
+.gap-50 {
+  gap: 50px;
+}
+
+.gap-60 {
+  gap: 60px;
+}
+
+.gap-70 {
+  gap: 70px;
+}
+
+.gap-80 {
+  gap: 80px;
+}
+
+.gap-90 {
+  gap: 90px;
+}
+
+.gap-100 {
+  gap: 100px;
+}
+
+.gap-row-10 {
+  row-gap: 10px;
+}
+
+.gap-row-20 {
+  row-gap: 20px;
+}
+
+.gap-row-30 {
+  row-gap: 30px;
+}
+
+.gap-row-40 {
+  row-gap: 40px;
+}
+
+.gap-row-50 {
+  row-gap: 50px;
+}
+
+.gap-row-60 {
+  row-gap: 60px;
+}
+
+.gap-row-70 {
+  row-gap: 70px;
+}
+
+.gap-row-80 {
+  row-gap: 80px;
+}
+
+.gap-row-90 {
+  row-gap: 90px;
+}
+
+.gap-row-100 {
+  row-gap: 100px;
+}
+
+.gap-column-10 {
+  column-gap: 10px;
+}
+
+.gap-column-20 {
+  column-gap: 20px;
+}
+
+.gap-column-30 {
+  column-gap: 30px;
+}
+
+.gap-column-40 {
+  column-gap: 40px;
+}
+
+.gap-column-50 {
+  column-gap: 50px;
+}
+
+.gap-column-60 {
+  column-gap: 60px;
+}
+
+.gap-column-70 {
+  column-gap: 70px;
+}
+
+.gap-column-80 {
+  column-gap: 80px;
+}
+
+.gap-column-90 {
+  column-gap: 90px;
+}
+
+.gap-column-100 {
+  column-gap: 100px;
+}
+
+@media(max-width:900px) {
+  .flex-MD {
+    display: flex;
+  }
+
+  .flex-row-MD {
+    flex-direction: row;
+  }
+
+  .flex-row-reverse-MD {
+    flex-direction: row-reverse;
+  }
+
+  .justify-start-MD {
+    justify-content: flex-start;
+  }
+
+  .justify-center-MD {
+    justify-content: center;
+  }
+
+  .justify-end-MD {
+    justify-content: flex-end;
+  }
+
+  .justify-between-MD {
+    justify-content: space-between;
+  }
+
+  .justify-around-MD {
+    justify-content: space-around;
+  }
+
+  .justify-evenly-MD {
+    justify-content: space-evenly;
+  }
+
+  .align-start-MD {
+    align-items: flex-start;
+  }
+
+  .align-center-MD {
+    align-items: center;
+  }
+
+  .align-end-MD {
+    align-items: flex-end;
+  }
+
+  .align-baseline-MD {
+    align-items: baseline;
+  }
+
+  .align-stretch-MD {
+    align-items: stretch;
+  }
+
+  .flex-column-MD {
+    flex-direction: column;
+  }
+
+  .flex-column-reverse-MD {
+    flex-direction: column-reverse;
+  }
+
+  .flex-wrap-MD {
+    flex-wrap: wrap;
+  }
+
+  .flex-no-wrap-MD {
+    flex-wrap: nowrap;
+  }
+
+  .gap-10-MD {
+    gap: 10px;
+  }
+
+  .gap-20-MD {
+    gap: 20px;
+  }
+
+  .gap-30-MD {
+    gap: 30px;
+  }
+
+  .gap-40-MD {
+    gap: 40px;
+  }
+
+  .gap-50-MD {
+    gap: 50px;
+  }
+
+  .gap-60-MD {
+    gap: 60px;
+  }
+
+  .gap-70-MD {
+    gap: 70px;
+  }
+
+  .gap-80-MD {
+    gap: 80px;
+  }
+
+  .gap-90-MD {
+    gap: 90px;
+  }
+
+  .gap-100-MD {
+    gap: 100px;
+  }
+
+  .gap-row-10-MD {
+    row-gap: 10px;
+  }
+
+  .gap-row-20-MD {
+    row-gap: 20px;
+  }
+
+  .gap-row-30-MD {
+    row-gap: 30px;
+  }
+
+  .gap-row-40-MD {
+    row-gap: 40px;
+  }
+
+  .gap-row-50-MD {
+    row-gap: 50px;
+  }
+
+  .gap-row-60-MD {
+    row-gap: 60px;
+  }
+
+  .gap-row-70-MD {
+    row-gap: 70px;
+  }
+
+  .gap-row-80-MD {
+    row-gap: 80px;
+  }
+
+  .gap-row-90-MD {
+    row-gap: 90px;
+  }
+
+  .gap-row-100-MD {
+    row-gap: 100px;
+  }
+
+  .gap-column-10-MD {
+    column-gap: 10px;
+  }
+
+  .gap-column-20-MD {
+    column-gap: 20px;
+  }
+
+  .gap-column-30-MD {
+    column-gap: 30px;
+  }
+
+  .gap-column-40-MD {
+    column-gap: 40px;
+  }
+
+  .gap-column-50-MD {
+    column-gap: 50px;
+  }
+
+  .gap-column-60-MD {
+    column-gap: 60px;
+  }
+
+  .gap-column-70-MD {
+    column-gap: 70px;
+  }
+
+  .gap-column-80-MD {
+    column-gap: 80px;
+  }
+
+  .gap-column-90-MD {
+    column-gap: 90px;
+  }
+
+  .gap-column-100-MD {
+    column-gap: 100px;
+  }
+}
+
+@media(max-width:500px) {
+  
+  .flex-SM{
+    display: flex;
+  }
+
+  .flex-row-SM {
+    flex-direction: row;
+  }
+
+  .flex-row-reverse-SM {
+    flex-direction: row-reverse;
+  }
+
+  .justify-start-SM {
+    justify-content: flex-start;
+  }
+
+  .justify-center-SM {
+    justify-content: center;
+  }
+
+  .justify-end-SM {
+    justify-content: flex-end;
+  }
+
+  .justify-between-SM {
+    justify-content: space-between;
+  }
+
+  .justify-around-SM {
+    justify-content: space-around;
+  }
+
+  .justify-evenly-SM {
+    justify-content: space-evenly;
+  }
+
+  .align-start-SM {
+    align-items: flex-start;
+  }
+
+  .align-center-SM {
+    align-items: center;
+  }
+
+  .align-end-SM {
+    align-items: flex-end;
+  }
+
+  .align-baseline-SM {
+    align-items: baseline;
+  }
+
+  .align-stretch-SM {
+    align-items: stretch;
+  }
+
+  .flex-column-SM {
+    flex-direction: column;
+  }
+
+  .flex-column-reverse-SM {
+    flex-direction: column-reverse;
+  }
+
+  .flex-wrap-SM {
+    flex-wrap: wrap;
+  }
+
+  .flex-no-wrap-SM {
+    flex-wrap: nowrap;
+  }
+
+  .gap-10-SM {
+    gap: 10px;
+  }
+
+  .gap-20-SM {
+    gap: 20px;
+  }
+
+  .gap-30-SM {
+    gap: 30px;
+  }
+
+  .gap-40-SM {
+    gap: 40px;
+  }
+
+  .gap-50-SM {
+    gap: 50px;
+  }
+
+  .gap-60-SM {
+    gap: 60px;
+  }
+
+  .gap-70-SM {
+    gap: 70px;
+  }
+
+  .gap-80-SM {
+    gap: 80px;
+  }
+
+  .gap-90-SM {
+    gap: 90px;
+  }
+
+  .gap-100-SM {
+    gap: 100px;
+  }
+
+  .gap-row-10-SM {
+    row-gap: 10px;
+  }
+
+  .gap-row-20-SM {
+    row-gap: 20px;
+  }
+
+  .gap-row-30-SM {
+    row-gap: 30px;
+  }
+
+  .gap-row-40-SM {
+    row-gap: 40px;
+  }
+
+  .gap-row-50-SM {
+    row-gap: 50px;
+  }
+
+  .gap-row-60-SM {
+    row-gap: 60px;
+  }
+
+  .gap-row-70-SM {
+    row-gap: 70px;
+  }
+
+  .gap-row-80-SM {
+    row-gap: 80px;
+  }
+
+  .gap-row-90-SM {
+    row-gap: 90px;
+  }
+
+  .gap-row-100-SM {
+    row-gap: 100px;
+  }
+
+  .gap-column-10-SM {
+    column-gap: 10px;
+  }
+
+  .gap-column-20-SM {
+    column-gap: 20px;
+  }
+
+  .gap-column-30-SM {
+    column-gap: 30px;
+  }
+
+  .gap-column-40-SM {
+    column-gap: 40px;
+  }
+
+  .gap-column-50-SM {
+    column-gap: 50px;
+  }
+
+  .gap-column-60-SM {
+    column-gap: 60px;
+  }
+
+  .gap-column-70-SM {
+    column-gap: 70px;
+  }
+
+  .gap-column-80-SM {
+    column-gap: 80px;
+  }
+
+  .gap-column-90-SM {
+    column-gap: 90px;
+  }
+
+  .gap-column-100-SM {
+    column-gap: 100px;
+  }
+}
+
+.overflow-yscroll{
+  overflow-y: scroll;
+}
+
+.overflow-xscroll{
+  overflow-x: scroll;
+}
+
+.overflow-hidden{
+  overflow: hidden;
+}
+
+@media(max-width:900px){
+  .overflow-yscroll-MD{
+    overflow-y: scroll;
+  }
+  
+  .overflow-xscroll-MD{
+    overflow-x: scroll;
+  }
+  
+  .overflow-hidden-MD{
+    overflow: hidden;
+  }
+}
+
+@media(max-width:500px){
+  .overflow-yscroll-SM{
+    overflow-y: scroll;
+  }
+  
+  .overflow-xscroll-SM{
+    overflow-x: scroll;
+  }
+  
+  .overflow-hidden-SM{
+    overflow: hidden;
+  }
+}
